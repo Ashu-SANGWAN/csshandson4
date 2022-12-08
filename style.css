@@ -14,7 +14,7 @@
     background-color: #79b5bf;
     border-radius: 20px;
     position: relative;
-    left: 328px;
+    left: 442px;
     font-weight: 700;
     font-size: 19px;
 }
@@ -22,7 +22,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-around;
     border: 2px solid;
     height: 203px;
     background-color: lightseagreen;
@@ -34,7 +34,7 @@
     border: 2px solid black;
     height: 95px;
     position: relative;
-    width: 406px;
+    width: 430px;
     left: 7px;
     border-radius: 10px;
     background-color: aqua;
@@ -43,7 +43,7 @@
     border: 2px solid black;
     height: 95px;
     position: relative;
-    width: 406px;
+    width: 430px;
     left: 7px;
     border-radius: 10px;
     background-color: aqua;
@@ -53,7 +53,7 @@
     border: 2px solid black;
     height: 95px;
     position: relative;
-    width: 406px;
+    width: 430px;
     left: 7px;
     border-radius: 10px;
     background-color: aqua;
@@ -63,7 +63,7 @@
     border: 2px solid black;
     height: 95px;
     position: relative;
-    width: 406px;
+    width: 430px;
     left: 7px;
     border-radius: 10px;
     background-color: aqua;
@@ -105,68 +105,63 @@
     color: red;
     font-weight: 700;
 }
-
-
-.main6{
+main{
+    width: 100%; margin: 50px auto;
+    border: 1px solid grey;
     display: grid;
-    grid-template-columns: auto auto auto ;
-    border: 2px solid red;
-    gap: 7px;
+    grid-template-rows: 60px 100px 200px 60px;
+    grid-template-columns: repeat(3,1fr) 150px;
+     grid-gap: 20px;
+
 }
 .b1{
     background-color: red;
-    text-align: center;
-    height: 45px;
     color: white;
-    font-size: 25px;
-    grid-column : 1/5;
+     grid-column : 1/-1;
+     text-align: center;
+    font-size: 32px;
+    font-weight: 600;
        
 }
 .b2{
-    background-color: green;
-    width: 360px;
-    height: 60px;
-    text-align: center;
+    background-color: #2ed573;
     color: white;
-    font-size: 25px;
+    font-size: 44px;
+    text-align: center;
 }
 .b3{
-    background-color:rgb(33 33 194);
-    width: 360px;
-    height: 60px;
+    background-color:#1e90ff;
     color: white;
-    font-size: 25px;
+    font-size: 35px;
+   
 }
 .b4{
-    background-color:  rgb(0 87 178);
-    width: 360px;
-    height: 60px;
+    background-color: #5352ed;
     color: white;
-    font-size: 25px;
+    font-size: 27px;
+   
 
 }
 .b5{
-    background-color: orange;
-    grid-column: 1/4;
-    height: 70px;
-    color: white;
-    font-size: 18px;
-}
-.b6{
     background-color: black;
     color: white;
     text-decoration: underline;
+    grid-row: 2/4; grid-column: 4/5;
+    font-size: 25px;
+}
+.b6{
+    background-color: orange;
+    grid-column: 1/4;
+    color: white;
+    font-size: 25px;
 }
 .b7{
     background-color: cyan;
-    grid-column: 1/5;
+    grid-column: 1/-1;
     text-align: center;
     font-weight: 600;
-    font-size: 25px;
-    
+    font-size: 50px;
 
 }
 
-.box3{
-    
-}
+ 
